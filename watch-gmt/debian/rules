@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f watch-gmt
+
+override_dh_auto_install:
+	dh_auto_install
+	mkdir -p debian/watch-gmt/usr/local/bin
+	cp watch-gmt debian/watch-gmt/usr/local/bin/
+override_dh_usrlocal:
+	:

@@ -1,0 +1,13 @@
+Source: watch-gmt
+Section: utils
+Priority: optional
+Maintainer: tawsif <sleeping4cat@gmail.com>
+Build-Depends: debhelper (>= 12), gcc
+Standards-Version: 4.5.0
+Homepage: https://sleeping4cat.github.io/sleepingcat/
+
+Package: watch-gmt
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple program to display the current GMT time
+ A simple C program that continuously displays the current time in GMT in a formatted style.

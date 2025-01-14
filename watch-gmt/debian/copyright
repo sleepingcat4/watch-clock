@@ -1,0 +1,7 @@
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: watch-gmt
+Source: https://sleeping4cat.github.io/sleepingcat/
+
+Files: *
+Copyright: 2025 Tawsif <sleeping4cat@gmail.com>
+License: MIT

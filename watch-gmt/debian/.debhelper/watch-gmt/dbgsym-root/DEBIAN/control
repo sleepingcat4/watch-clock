@@ -1,0 +1,13 @@
+Package: watch-gmt-dbgsym
+Package-Type: ddeb
+Source: watch-gmt
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: tawsif <sleeping4cat@gmail.com>
+Installed-Size: 18
+Depends: watch-gmt (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for watch-gmt
+Build-Ids: 00bad652852367c404e17bdeef3af348521f50ff

@@ -1,0 +1,11 @@
+Package: watch-gmt
+Version: 1.0-1
+Architecture: amd64
+Maintainer: tawsif <sleeping4cat@gmail.com>
+Installed-Size: 25
+Depends: libc6 (>= 2.34)
+Section: utils
+Priority: optional
+Homepage: https://sleeping4cat.github.io/sleepingcat/
+Description: A simple program to display the current GMT time
+ A simple C program that continuously displays the current time in GMT in a formatted style.
